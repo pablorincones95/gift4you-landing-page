@@ -7,7 +7,7 @@ class Contact extends React.Component {
   	return (
   		<section id="contact" className="contact">
          <div className="contact-decor">
-            <div className="contact-circle1"><img className="main-banner-12-img"src="assets/images/osito2.png" alt="osito" /></div>
+            <div className="contact-circle1"><img className="main-banner-12-img"src="assets/images/regalo1.png" alt="regalo" /></div>
             <div className="contact-circle2"><img className="main-banner-img" src="assets/images/osito.png" alt="osito" /></div>
          </div>
          <div className="container">

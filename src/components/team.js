@@ -7,7 +7,7 @@ class Team extends React.Component {
   		<section id="team" className="team">
            <div className="team-decor">
               <div className="team-circle1"><img className="team1-img" src="assets/images/osito.png" alt="osito" /></div>
-              <div className="team-circle2"><img className="feature-circle1-img" src="assets/images/osito2.png" alt="osito" /></div>
+              <div className="team-circle2"><img className="feature-circle1-img" src="assets/images/regalo-fucsia.png" alt="regalo fucsia" /></div>
               <div className="team-circle3"><img className="team3-img" src="assets/images/main-banner1.png" alt="" /></div>
            </div>
            <div className="container">

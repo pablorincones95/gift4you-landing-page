@@ -68,9 +68,6 @@ class About extends React.Component {
                               </ul>
                            </div>
                         </div>
-                        <div className="top-margin">
-                           <button type="button" className="btn btn-custom theme-color theme-color">ver mas</button>
-                        </div>
                      </div>
                   </div>
                </div>
