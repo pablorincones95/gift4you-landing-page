@@ -78,7 +78,7 @@ class Feature extends React.Component {
                                  <h3>100% Segura</h3>
                               </div>
                               <div>
-                                 <p>Nuestra aplicación es 100% segura, libre de virus y estafas. </p>
+                                 <p>Nuestra aplicación es 100% segura, libre de estafas. </p>
                               </div>
                            </li>
                            <li>

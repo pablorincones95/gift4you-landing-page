@@ -73,7 +73,7 @@ class Footer extends React.Component {
         </section>
 
         <div className="copyright-section index-footer">
-           <p> 2019 Todo los Derechos Reservados Gift for you. Desarrollado por  <a href="https://geniusweb.mx/">GeniusWeb</a></p>
+           <p> 2019 Todo los Derechos Reservados Gift4you. Desarrollado por  <a href="https://geniusweb.mx/">GeniusWeb</a></p>
         </div>
 
         <div className="tap-top">

@@ -30,7 +30,7 @@ class Price extends React.Component {
 
     // Dynamic Price Data Easy to Update
     let data = [
-        {title: 'Beneficios', lable:'Sólo las características básicas.', price:'969', features:'<li>(+) Aumento de pedidos.</li><li>Seguimiento en tiempo real.</li><li>(+) Aumento de ingresos.</li><li>(+) Visualización.</li><li>(+) Aumento de ingresos.</li><li>Fidelizacón de clientes.</li><li>Generación de empleo.</li>', link:'#'},
+        {title: 'Beneficios', lable:'¿Quieres vender regalos con nosotros?.', price:'969', features:'<li>(+) Aumento de pedidos.</li><li>Seguimiento en tiempo real.</li><li>(+) Aumento de ingresos.</li><li>(+) Visualización.</li><li>(+) Aumento de ingresos.</li><li>Fidelizacón de clientes.</li><li>Generación de empleo.</li>', link:'#contact'},
     ];
 
     // Dynamic Price Data Loop
@@ -44,12 +44,10 @@ class Price extends React.Component {
                <div className="mrp">
                   <h6 className="user-type">{val.lable}</h6>
                   <div className="price-devide"></div>
-                  <h2>${val.price}</h2>
-                  <h6 className="price-year">per year</h6>
                   <div className="price-devide"></div>
                </div>
                <ul className="price-feature" dangerouslySetInnerHTML={ {__html: val.features} }></ul>
-               <a href={val.link} className="btn btn-custom theme-color" role="button" >Seleccione el plan</a>
+               <a href={val.link} data-menuanchor="contact" className="btn btn-custom theme-color" role="button" >Información</a>
             </div>
          </div>
         );

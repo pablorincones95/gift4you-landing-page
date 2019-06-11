@@ -38,20 +38,21 @@ class ScreenShot extends React.Component {
 		               <img className="mobile-light-left" src="assets/images/light.png" alt="light" />
 		               <img className="mob-mocup img-fluid" src="assets/images/screenshot-mob.png" alt="screenshot-mob" />
 		               <img className="mobile-light-right" src="assets/images/light-right.png" alt="light-right" />
-		               <OwlCarousel
-						    className="screenshot-carousel owl-carousel owl-theme"
-						    loop={true}
-						    margin={30}
-						    items={3}
-						    center={true}
-						    dots={false}
-						    autoplay={true}
-						    autoplayTimeout={8000}
-						    responsive={options}
-						>
+		               <OwlCarousel className="screenshot-carousel owl-carousel owl-theme"
+						    			loop={true}
+						    			margin={30}
+						    			items={3}
+						    			center={true}
+						    			dots={false}
+						    			autoplay={true}
+						    			autoplayTimeout={8000}
+						    			responsive={options}
+										>
+		                  <div className="screenshot-item"><img src="assets/images/app/1.jpeg" alt="app" /></div>
 		                  <div className="screenshot-item"><img src="assets/images/app/2.jpg" alt="app" /></div>
-		                  <div className="screenshot-item"><img src="assets/images/app/3.jpg" alt="app" /></div>
-		                  <div className="screenshot-item"><img src="assets/images/app/1.jpg" alt="app" /></div>
+											<div className="screenshot-item"><img src="assets/images/app/3.jpg" alt="app" /></div>
+											<div className="screenshot-item"><img src="assets/images/app/4.jpg" alt="app" /></div>
+		                  <div className="screenshot-item"><img src="assets/images/app/5.jpg" alt="app" /></div>
 		               </OwlCarousel>
 		            </div>
 		         </div>
